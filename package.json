@@ -1,0 +1,14 @@
+{
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "description": "core_JavaScript_Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon dataType.js"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
