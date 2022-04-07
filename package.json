@@ -4,7 +4,7 @@
   "description": "core_JavaScript_Practice",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon dataType.js"
+    "test": "nodemon Array.js"
   },
   "author": "Amit",
   "license": "ISC",
