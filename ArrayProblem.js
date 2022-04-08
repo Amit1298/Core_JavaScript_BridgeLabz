@@ -5,5 +5,15 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].*/
 
-const num = [2,7,11,15];
-console.log("Sum of two number is: ",num[0]+num[1]);
+var num = [2, 7, 11, 15];
+
+var sum = function(nums, target) {
+    for (var i = 0; i < num.length; i++) {
+        for (var j = 0; j < num.length; j++) {
+            if(nums[i]+nums[j]===target){
+                return[i,j];
+            }
+        }
+    }
+}
+console.log(sum(num,13));

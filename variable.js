@@ -12,3 +12,8 @@ console.log("Name is : "+ str+ str1 + str2);
 let fname = "BridgeLabz", lastName = "Solution";
 
 console.log("First name: "+ fname + " Last name: "+ lastName);
+
+var str2 = "Hello";
+var str3 = "World";
+console.log(str2,str3);
+const str2 = new String('Amit');
