@@ -10,10 +10,13 @@ var num = [2, 7, 11, 15];
 var sum = function(nums, target) {
     for (var i = 0; i < num.length; i++) {
         for (var j = 0; j < num.length; j++) {
-            if(nums[i]+nums[j]===target){
+            if(nums[i]+nums[j]==target){
                 return[i,j];
             }
         }
     }
 }
-console.log(sum(num,13));
+//console.log(sum(num,13));
+
+
+

@@ -16,4 +16,12 @@ console.log("First name: "+ fname + " Last name: "+ lastName);
 var str2 = "Hello";
 var str3 = "World";
 console.log(str2,str3);
-const str2 = new String('Amit');
+//const str2 = new String('Amit');
+
+
+console.log(str2.charAt(4));
+console.log(str2.indexOf("e"));
+console.log(str2.split(""));
+
+let include = str2.includes("H");
+console.log(include);
