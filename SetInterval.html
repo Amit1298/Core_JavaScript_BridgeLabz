@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetInterval</title>
+</head>
+<body>
+<div id="myDiv">
+    
+</div>
+<input type="submit" value="Stop Printing" id="mybtn"/>
+
+    <script>
+        /*
+        function runText(){
+            document.getElementById("myDiv").textContent += "Hello World ";
+        }
+        setInterval(runText,2000);
+        */
+       let intervalID = setInterval(()=>{
+           document.getElementById("myDiv").textContent += " Hello";
+       },2000);
+
+       function clrInterval(){
+           clearInterval(intervalID);
+       }
+       document.getElementById("mybtn").addEventListener("click",clrInterval);
+
+    </script>
+</body>
+</html>
