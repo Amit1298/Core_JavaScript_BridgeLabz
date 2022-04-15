@@ -22,6 +22,12 @@ var PeakElement = (num)=>{
 }
 console.log(PeakElement([1,2,5,3,1]));
 
+/*
+num[0]>num[1]  =>  1>2    false
+num[1]>num[2]  =>  2>3     false
+num[2]>num[3]  =>  5>3     true
+*/
+
 
 // var PeakElement1 = (num)=>{
 //     let left = 0;
