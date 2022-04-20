@@ -1,6 +1,6 @@
 
-const regex = /^[1-9]{1,2}[ ][1-9]{1}[0-9]{9}$/;
-let str = "91 9897139203";
+const regex = /^[0-9]{10}$/;
+let str = "9897139203";
 
 let result = regex.exec(str);
 console.log("The result from exec is : ", result);

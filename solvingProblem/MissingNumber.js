@@ -14,7 +14,7 @@
 */
 
 
-let arr = [9,6,4,2,3,5,7,0,1];
+let arr = [9,6,4,2,3,8,0,1];
 // arr = [1,2,3,4,6,7,8];
 // arr = [3,0,1];
 const missingNumber = (arr) => {
@@ -29,7 +29,7 @@ const missingNumber = (arr) => {
             if(arr[i]){
                 //console.log(arr[i]);
                 missingCount += arr[i];
-                console.log(missingCount);
+                //console.log(missingCount);
             }
      }
      return (sum - missingCount)

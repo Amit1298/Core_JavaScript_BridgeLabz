@@ -87,3 +87,5 @@ console.log(user) */
 const a = bird;
 a.canFly = true;
 console.log(a)  */
+
+

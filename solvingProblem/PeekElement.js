@@ -20,7 +20,7 @@ var PeakElement = (num)=>{
         }
     }
 }
-console.log(PeakElement([1,2,5,3,1]));
+console.log(PeakElement([1,2,3,1,5,1]));
 
 /*
 num[0]>num[1]  =>  1>2    false

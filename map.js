@@ -24,8 +24,8 @@ var newArr = arr.map(function(value){
    return value;
 });
 
-// console.log(arr);
-// console.log(newArr);
+ console.log(arr);
+ console.log(newArr);
 
 
 var arr1 = [
