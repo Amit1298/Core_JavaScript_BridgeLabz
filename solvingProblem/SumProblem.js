@@ -8,18 +8,18 @@
  *Thank you for your business! We look forward to working with you again.
  */
 
- function twoSumNumber(data,sum){
-    if(data !== null&&data.length >=2){
-        for(let i = 0;i<data.length;i++){
-            for(let j=i+1;j<data.length;j++){
-                if(data[i]+data[j] === sum){
-                    console.log("Two number sum exists and here are the number: ",data[i],data[j]);
-                    return [data[i],data[j]]
-                }else{
-                    continue;
+function twoSumNumber(data, sum) {
+    if (data.length<=2) 
+    return data
+    {
+        for (let i = 0; i < data.length; i++) {
+            for (let j = i + 1; j < data.length; j++) {
+                if (data[i] + data[j] === sum) {
+                    console.log("Two number sum exists and here are the number: ", data[i], data[j]);
+                    return [data[i], data[j]]
                 }
             }
         }
     }
 }
-console.log(twoSumNumber([3, 34, 4, 12, 5, 2],9));
+console.log(twoSumNumber([3, 34, 4, 12, 5, 2], 9));
